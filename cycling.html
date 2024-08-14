@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport Meta Tag: Ensures proper scaling on mobile devices -->
     <title>Cycling</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -34,8 +34,15 @@
         
         <p>Cycling is a great way to stay fit and explore the outdoors. It offers a fantastic cardio workout, strengthens muscles, and improves joint mobility. Whether you enjoy leisurely rides through the countryside or intense mountain biking, cycling provides endless opportunities for adventure and health benefits. It’s also an environmentally friendly mode of transportation that can help reduce your carbon footprint.</p>
         <p>For more information, visit <a href="https://www.bicycling.com" target="_blank">Bicycling.com</a>.</p>
-        <img src = "images/cycle1.jpg" width="800" height="500">
+        
+        <!-- Wrapped the image in a div with text-center for alignment and added img-fluid for responsiveness -->
+        <div class="text-center">
+            <img src="images/cycle1.jpg" class="img-fluid" alt="Cycling Image"> <!-- Added img-fluid class and alt attribute -->
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
