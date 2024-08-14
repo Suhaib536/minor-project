@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport Meta Tag: Ensures proper scaling on mobile devices -->
     <title>Watching Movies</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -31,9 +31,13 @@
 
     <div class="container mt-5">
         <h1 class="mb-4 text-center">Watching Movies</h1>
-        <p>Watching movies is a wonderful way to relax and immerse yourself in different worlds and stories. It is an enjoyable activity that can be both entertaining and educational. Whether you prefer dramas, comedies, or documentaries, movies offer a great escape and a way to experience diverse cultures and perspectives. They also provide an opportunity to bond with friends and family over shared viewing experiences. Some of my favourite movies are Godfather, Scarface and Forrest Gump.</p>
+        <p>Watching movies is a wonderful way to relax and immerse yourself in different worlds and stories. It is an enjoyable activity that can be both entertaining and educational. Whether you prefer dramas, comedies, or documentaries, movies offer a great escape and a way to experience diverse cultures and perspectives. They also provide an opportunity to bond with friends and family over shared viewing experiences. Some of my favourite movies are Godfather, Scarface, and Forrest Gump.</p>
         <p>For more information, visit <a href="https://www.imdb.com" target="_blank">IMDb</a>.</p>
-        <img src = "images/scarface1.jpg" >
+        
+        <!-- Wrapped the image in a div with text-center for alignment and added img-fluid for responsiveness -->
+        <div class="text-center">
+            <img src="images/scarface1.jpg" class="img-fluid" alt="Scarface Movie"> <!-- Added img-fluid class and alt attribute -->
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
